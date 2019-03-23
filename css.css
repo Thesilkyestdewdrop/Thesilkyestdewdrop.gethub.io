@@ -1,39 +1,56 @@
+*{
+    font-kerning: 2px;
+}
+#logo{
+    height: 30;
+    width: auto;
+}
+#mill1{
+    height: 400;
+    width: auto;
+    padding-left: 100;
+}
+#mill2{
+    height: 300;
+    Width: auto;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+#watch_link{
+    width:285;
+}
+.thumbnail:hover {
+    position:relative;
+    top:-5px;
+    left:-5px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
 .jumbotron{
-    background-image: url(images/jt02.png);
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-attachment: fixed;
+    background-image:url(images/milim-figure.jpg);
+    background-size: cover;
+    height: 500px;
     border-radius: 0;
-    height: 40%;
-    
-}
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
 h1{
-    padding-top: 50;
     text-align: center;
+    padding-top: 190;
 }
-h4{
-    text-decoration: underline;
-    text-align: center;
-}
-aside{
-    padding-right: -100px;
+aside { 
     position: relative;
-    float:left;
+    float:right;
     width:170px; 
     top: 0px;
     bottom: 0px;
-    padding-left: 0;
-    background-color: C9C9C9;
 }
-table, th, td {
-    border: 1px solid black;
-}
-caption{
-    text-decoration: underline;
-}
-td{
+h2{
     text-align: center;
 }
-.tab{
-    text-indent: 40px;
+paragraphspace{
+    padding-left: 100px;
 }
