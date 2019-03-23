@@ -19,11 +19,16 @@
 #watch_link{
     width:285;
 }
+#satin{
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
 .thumbnail:hover {
     position:relative;
-    top:-5px;
-    left:-5px;
-    width:500px;
+    top:-10px;
+    left:-15px;
+    width:600px;
     height:auto;
     display:block;
     z-index:999;
@@ -37,6 +42,9 @@
     background-repeat: no-repeat;
     background-position: center;
     }
+#submit{
+    width: 700px;
+}
 h1{
     text-align: center;
     padding-top: 190;
@@ -53,4 +61,7 @@ h2{
 }
 paragraphspace{
     padding-left: 100px;
+}
+p{
+    text-indent: 50px;
 }
