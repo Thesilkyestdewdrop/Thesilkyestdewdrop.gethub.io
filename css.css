@@ -16,6 +16,11 @@
     padding-top: 15px;
     padding-left: 20px;
 }
+#mill3{
+    height: 250;
+    width: auto;
+    padding-top: 20px;
+}
 #watch_link{
     width:285;
 }
@@ -44,6 +49,13 @@
     }
 #submit{
     width: 700px;
+}
+#back_to_top_container{
+    text-align: center;
+}
+#back_to_top{
+    border-radius: 0px;
+    width: 150px;
 }
 h1{
     text-align: center;
