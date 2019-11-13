@@ -1,79 +1,58 @@
-*{
-    font-kerning: 2px;
-}
-#logo{
-    height: 30;
+footer{
+    background-color: coral;
     width: auto;
+    height: 100px;
 }
-#mill1{
-    height: 400;
-    width: auto;
-    padding-left: 100;
-}
-#mill2{
-    height: 300;
-    Width: auto;
-    padding-top: 15px;
-    padding-left: 20px;
-}
-#mill3{
-    height: 250;
-    width: auto;
-    padding-top: 20px;
-}
-#watch_link{
-    width:285;
-}
-#satin{
-    padding-bottom: 10px;
-    text-align: center;
+.jumbotron{
+    background-color: coral;
+    border-radius: 0;
     
 }
 .thumbnail:hover {
     position:relative;
-    top:-10px;
-    left:-15px;
-    width:600px;
-    height:auto;
+    top:-2px;
+    left:-6px;
     display:block;
     z-index:999;
 }
-.jumbotron{
-    background-image:url(images/milim-figure.jpg);
-    background-size: cover;
-    height: 500px;
-    border-radius: 0;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    }
-#submit{
-    width: 700px;
-}
-#back_to_top_container{
+.center{
     text-align: center;
 }
-#back_to_top{
-    border-radius: 0px;
-    width: 150px;
-}
-h1{
-    text-align: center;
-    padding-top: 190;
-}
-aside { 
-    position: relative;
-    float:right;
-    width:170px; 
-    top: 0px;
-    bottom: 0px;
-}
-h2{
-    text-align: center;
-}
-paragraphspace{
+.head1{
     padding-left: 100px;
+    padding-top: 100px;
+    font-family: cursive;
 }
-p{
-    text-indent: 50px;
+.paratext1{
+    padding-left: 120px;
+}
+.foota1{
+    text-align: center;
+    padding-top: 10px;
+}
+.logo{
+    height: 40px;
+    width: auto;
+}
+#logotop{
+    height:200px;
+    width: auto;
+}
+#page1_header{
+    text-align: center;
+    padding-top: 50px;
+}
+#img1{
+    width: 400;
+    height: auto;
+}
+#img2{ 
+    width: 400;
+    height: auto;
+}
+#rowedit1{
+    padding-left: 340px;
+}
+#rowedit2{
+    padding-left: 410px;
 }
